@@ -28,17 +28,19 @@
 }
 
 .one {
-  background-color: hsl(246, 80%, 60%);
-  border-radius: 8px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
   color: #fff;
   grid-area: one;
 }
 .one-content {
-  padding: 10%;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 15px;
+  padding: 30px;
+  /* padding-bottom: 100px; */
 }
 .one img {
   width: 80px;
-  
 }
   .detail{
     color: hsl(236, 100%, 87%);
@@ -50,15 +52,16 @@
     font-size: 40px;
   }
   .frequency {
-    padding: 10%;
-    padding-bottom: 134px;
-    border-radius: 8px;
-    background-color: hsl(235, 46%, 20%);
+    padding: 30px;
+    /* padding-bottom: 134px; */
+    /* border-radius: 8px; */
+    /* background-color: hsl(235, 46%, 20%); */
   }
   .frequency p {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: hsl(236, 100%, 87%);
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    padding-top: 20px;
   }
   #white {
     color: #fff;
@@ -66,18 +69,44 @@
 
 .two {
   background-color: hsl(15, 100%, 70%);
-  border-radius: 8px;
+  border-radius: 15px;
   grid-area: two;
 }
+ .two .upper {
+  /* border-top-left-radius: 8px;
+  border-top-right-radius: 8px; */
+  /* background-color: hsl(15, 100%, 70%); */
+  /* height: 50px; */
+  display: flex;
+  justify-content: flex-end;
+}
+  .upper img {
+    width: 50px;
+  } 
 .two-content {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-color: hsl(235, 46%, 20%);
   color: #fff;
-  margin-top: 15%;
 }
   .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
+  .heading {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .header img {
+    width: 20px;
+  }
+  /* .info {
+    padding: ;
+  } */
+  
 
 .three {
   background-color: hsl(195, 74%, 62%);
