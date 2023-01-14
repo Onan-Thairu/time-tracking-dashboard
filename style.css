@@ -8,7 +8,7 @@
 .container {
   width: 98vw;
   height: 98vh;
-  /* background-color: hsl(226, 43%, 10%); */
+  background-color: hsl(226, 43%, 10%);
   display: grid;
   justify-items: center;
   align-items: center;
@@ -55,14 +55,9 @@
   }
   .frequency {
     padding: 30px;
-    /* padding-bottom: 134px; */
-    /* border-radius: 8px; */
-    /* background-color: hsl(235, 46%, 20%); */
   }
   .frequency p {
-    /* margin-top: 10px; */
     color: hsl(236, 100%, 87%);
-    /* margin-bottom: 15px; */
     padding-top: 20px;
   }
   #white {
@@ -75,15 +70,11 @@
   grid-area: two;
 }
  .upper {
-  /* border-top-left-radius: 8px;
-  border-top-right-radius: 8px; */
-  /* background-color: hsl(15, 100%, 70%); */
-  /* height: 50px; */
   display: flex;
   justify-content: flex-end;
 }
   .upper img {
-    width: 50px;
+    width: 45px;
   } 
 .two-content {
   border-radius: 15px;
@@ -134,8 +125,10 @@
   background-color: hsl(145, 58%, 55%);
   border-radius: 15px;
   grid-area: five;
-  
 }
+  .exercise img {
+    width: 54px;
+  }
 
 .six {
   background-color: hsl(264, 64%, 52%);
@@ -152,5 +145,5 @@
   grid-area: seven;
 }
  .self-care img {
-  width: 36px;
+  width: 38px;
  }
